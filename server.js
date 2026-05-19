@@ -28,6 +28,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// 根路由 → index.html（解决 Railway 部署中静态文件路径问题）
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+app.get('/admin.html', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'admin.html'));
+});
+
 // ==================== 高德搜索代理（绕过 JS API 安全密钥限制）====================
 function amapSearch(keyword) {
   return new Promise((resolve, reject) => {
