@@ -1,0 +1,9 @@
+node_modules/
+server_out.log
+server_err.log
+start-auto.bat
+start-server.bat
+start-stable.ps1
+start.bat
+stop-server.bat
+stop-server.ps1

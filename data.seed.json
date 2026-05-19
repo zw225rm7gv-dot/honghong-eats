@@ -1,0 +1,795 @@
+{
+  "categories": [],
+  "achievements": [
+    {
+      "id": 1,
+      "name": "探店新手",
+      "description": "首次添加餐厅",
+      "icon": "🌱",
+      "condition": "add_restaurant",
+      "threshold": 1
+    },
+    {
+      "id": 2,
+      "name": "美食达人",
+      "description": "添加5家餐厅",
+      "icon": "🍽️",
+      "condition": "add_restaurant",
+      "threshold": 5
+    },
+    {
+      "id": 3,
+      "name": "火锅达人",
+      "description": "添加3家火锅店",
+      "icon": "🌶️",
+      "condition": "add_category",
+      "category": "火锅",
+      "threshold": 3
+    },
+    {
+      "id": 4,
+      "name": "小面爱好者",
+      "description": "添加3家小面店",
+      "icon": "🍜",
+      "condition": "add_category",
+      "category": "小面",
+      "threshold": 3
+    },
+    {
+      "id": 5,
+      "name": "点评专家",
+      "description": "写10条评价",
+      "icon": "✍️",
+      "condition": "write_review",
+      "threshold": 10
+    },
+    {
+      "id": 6,
+      "name": "社交达人",
+      "description": "写20条评价",
+      "icon": "🎤",
+      "condition": "write_review",
+      "threshold": 20
+    },
+    {
+      "id": 7,
+      "name": "重庆美食地图完成者",
+      "description": "添加20家餐厅",
+      "icon": "🗺️",
+      "condition": "add_restaurant",
+      "threshold": 20
+    },
+    {
+      "id": 8,
+      "name": "烧烤达人",
+      "description": "添加3家烧烤店",
+      "icon": "🍢",
+      "condition": "add_category",
+      "category": "烧烤",
+      "threshold": 3
+    },
+    {
+      "id": 9,
+      "name": "江湖美食家",
+      "description": "添加3家江湖菜",
+      "icon": "🥘",
+      "condition": "add_category",
+      "category": "江湖菜",
+      "threshold": 3
+    },
+    {
+      "id": 10,
+      "name": "串串达人",
+      "description": "添加3家串串店",
+      "icon": "🍡",
+      "condition": "add_category",
+      "category": "串串",
+      "threshold": 3
+    },
+    {
+      "id": 11,
+      "name": "满分猎人",
+      "description": "给出5个五星评价",
+      "icon": "🏆",
+      "condition": "five_star_review",
+      "threshold": 5
+    },
+    {
+      "id": 12,
+      "name": "美食摄影师",
+      "description": "上传5张美食图片",
+      "icon": "📸",
+      "condition": "upload_image",
+      "threshold": 5
+    },
+    {
+      "id": 13,
+      "name": "热心推荐官",
+      "description": "写5条带推荐理由的评价",
+      "icon": "💬",
+      "condition": "has_recommend_reason",
+      "threshold": 5
+    },
+    {
+      "id": 14,
+      "name": "火锅狂热粉",
+      "description": "添加5家火锅店",
+      "icon": "🔥",
+      "condition": "add_category",
+      "category": "火锅",
+      "threshold": 5
+    },
+    {
+      "id": 15,
+      "name": "全城扫街人",
+      "description": "添加50家餐厅",
+      "icon": "🎯",
+      "condition": "add_restaurant",
+      "threshold": 50
+    },
+    {
+      "id": 16,
+      "name": "重庆美食之王",
+      "description": "添加100家餐厅",
+      "icon": "👑",
+      "condition": "add_restaurant",
+      "threshold": 100
+    }
+  ],
+  "user_achievements": [
+    {
+      "achievement_id": 1,
+      "unlocked_at": "2026-05-17T17:34:13.755Z"
+    },
+    {
+      "achievement_id": 2,
+      "unlocked_at": "2026-05-17T17:34:13.755Z"
+    },
+    {
+      "achievement_id": 5,
+      "unlocked_at": "2026-05-17T17:34:13.760Z"
+    },
+    {
+      "achievement_id": 6,
+      "unlocked_at": "2026-05-17T18:25:29.555Z"
+    },
+    {
+      "achievement_id": 11,
+      "unlocked_at": "2026-05-18T04:25:36.936Z"
+    },
+    {
+      "achievement_id": 13,
+      "unlocked_at": "2026-05-18T04:25:36.936Z"
+    },
+    {
+      "achievement_id": 1,
+      "device_id": "806b4114-4573-4976-98f7-d5a315ba3260",
+      "unlocked_at": "2026-05-18T19:41:01.945Z"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "安胖老火锅(两路口店)",
+      "category": "火锅",
+      "latitude": 29.553153,
+      "longitude": 106.543835,
+      "address": "渝中区 · 花园大厦38号(两路口地铁站5号口步行420米)",
+      "imagePath": "",
+      "createdAt": "2026-05-17T09:34:41.769Z"
+    },
+    {
+      "id": 3,
+      "name": "珮姐老火锅(洪崖洞店)",
+      "category": "火锅",
+      "latitude": 29.5611,
+      "longitude": 106.5831,
+      "address": "渝中区·洪崖洞景区附近",
+      "imagePath": "",
+      "createdAt": "2026-05-17T10:05:01.831Z"
+    },
+    {
+      "id": 4,
+      "name": "周师兄重庆火锅(解放碑店)",
+      "category": "火锅",
+      "latitude": 29.5578,
+      "longitude": 106.5791,
+      "address": "渝中区·解放碑步行街",
+      "imagePath": "",
+      "createdAt": "2026-05-17T10:05:01.835Z"
+    },
+    {
+      "id": 6,
+      "name": "秦云老太婆摊摊面(谢家湾店)",
+      "category": "小面",
+      "latitude": 29.5112,
+      "longitude": 106.5321,
+      "address": "九龙坡区·谢家湾",
+      "imagePath": "",
+      "createdAt": "2026-05-17T10:05:01.838Z"
+    },
+    {
+      "id": 7,
+      "name": "九村烤脑花(黄泥塝店)",
+      "category": "烧烤",
+      "latitude": 29.6034,
+      "longitude": 106.5512,
+      "address": "渝北区·黄泥塝",
+      "imagePath": "",
+      "createdAt": "2026-05-17T10:05:01.839Z"
+    },
+    {
+      "id": 8,
+      "name": "43号面摊",
+      "category": "面馆",
+      "latitude": 29.535438,
+      "longitude": 106.578221,
+      "address": "南岸区 · 辅仁大道与南坪东路交叉口东北20米",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-17T17:34:13.754Z"
+    },
+    {
+      "id": 9,
+      "name": "林妹妹沾水米线(两路口店)",
+      "category": "",
+      "latitude": 29.554261,
+      "longitude": 106.549311,
+      "address": "渝中区 · 中山三路139号希尔顿酒店旁(近宋庆龄故居)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-17T18:24:32.588Z"
+    },
+    {
+      "id": 10,
+      "name": "五娃子烧烤(人民路150号院店)",
+      "category": "",
+      "latitude": 29.563778,
+      "longitude": 106.555532,
+      "address": "渝中区 · 人民支路5号负1号(大礼堂地铁站1号口步行350米)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T04:25:36.930Z"
+    },
+    {
+      "id": 11,
+      "name": "欣奕除疤祛痘(大坪店)",
+      "category": "",
+      "latitude": 29.536523,
+      "longitude": 106.507995,
+      "address": "渝中区 · 大坪正街123号附7号(石油路地铁站2A口步行140米)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T04:26:17.460Z"
+    },
+    {
+      "id": 12,
+      "name": "C.J坚果咖啡",
+      "category": "",
+      "latitude": 29.534637,
+      "longitude": 106.516102,
+      "address": "渝中区 · 长江二路167号附1号",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T04:34:39.434Z"
+    },
+    {
+      "id": 13,
+      "name": "熊婆婆的花园",
+      "category": "",
+      "latitude": 29.607439,
+      "longitude": 106.540706,
+      "address": "两江新区 · 两江新区泰山大道中段临21号",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T04:55:19.622Z"
+    },
+    {
+      "id": 14,
+      "name": "祖小面(人和店)",
+      "category": "",
+      "latitude": 29.630046,
+      "longitude": 106.528153,
+      "address": "两江新区 · 人和镜泊西路84号(和睦路地铁站2口步行420米)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T05:28:21.926Z"
+    },
+    {
+      "id": 15,
+      "name": "M的牛尾汤(加州老店)",
+      "category": "",
+      "latitude": 29.584772,
+      "longitude": 106.523309,
+      "address": "两江新区 · 两江新区渝北区锦龙支路20号1幢1013号(北站后门旁)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T05:28:43.449Z"
+    },
+    {
+      "id": 16,
+      "name": "金辉广场",
+      "category": "",
+      "latitude": 29.527178,
+      "longitude": 106.540229,
+      "address": "南岸区 · 风临路",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T05:29:52.995Z"
+    },
+    {
+      "id": 17,
+      "name": "重庆(化龙桥)国际商务区2号楼",
+      "category": "",
+      "latitude": 29.550463,
+      "longitude": 106.515847,
+      "address": "渝中区 · 化龙桥(化龙桥地铁站2号口步行310米)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T05:41:57.541Z"
+    },
+    {
+      "id": 18,
+      "name": "五小区",
+      "category": "",
+      "latitude": 29.522825,
+      "longitude": 106.552088,
+      "address": "南岸区 · 桃源路16号",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdAt": "2026-05-18T05:42:42.818Z"
+    },
+    {
+      "id": 19,
+      "name": "李大爷的泡椒馆(宜居家园店)",
+      "category": "",
+      "latitude": 29.589321,
+      "longitude": 106.502033,
+      "address": "两江新区 · 松石支路71号(大龙山地铁站1B口步行320米)",
+      "imagePath": "",
+      "phone": "",
+      "openingHours": "",
+      "images": [],
+      "createdByDeviceId": "806b4114-4573-4976-98f7-d5a315ba3260",
+      "createdAt": "2026-05-18T19:41:01.944Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "restaurantId": 1,
+      "reviewerName": "轰轰",
+      "rating": 4,
+      "comment": "开了二十多年了吧 路过的话可以试试",
+      "recommendReason": "",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [
+        "/uploads/sample1.svg"
+      ],
+      "createdAt": "2026-05-17T09:35:08.744Z",
+      "approved": true
+    },
+    {
+      "id": 2,
+      "restaurantId": 2,
+      "reviewerName": "",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T09:44:15.591Z",
+      "approved": true
+    },
+    {
+      "id": 3,
+      "restaurantId": 2,
+      "reviewerName": "",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T09:57:35.054Z",
+      "approved": true
+    },
+    {
+      "id": 4,
+      "restaurantId": 3,
+      "reviewerName": "轰轰",
+      "rating": 5,
+      "comment": "真的好吃，下次还来！",
+      "recommendReason": "服务热情，味道正宗",
+      "signatureDishes": "毛肚、鸭肠、黄喉",
+      "avgCost": 60,
+      "bestTime": "晚上6点后",
+      "isOpen": true,
+      "images": [
+        "/uploads/sample1.svg"
+      ],
+      "createdAt": "2026-05-17T10:05:01.841Z",
+      "approved": true
+    },
+    {
+      "id": 5,
+      "restaurantId": 4,
+      "reviewerName": "小王",
+      "rating": 4,
+      "comment": "味道不错，环境也挺好",
+      "recommendReason": "环境不错，适合聚餐",
+      "signatureDishes": "鲜毛肚、手工虾滑",
+      "avgCost": 80,
+      "bestTime": "周末中午",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:05:01.843Z",
+      "approved": true
+    },
+    {
+      "id": 6,
+      "restaurantId": 7,
+      "reviewerName": "阿杰",
+      "rating": 4,
+      "comment": "性价比很高，推荐给朋友",
+      "recommendReason": "烤脑花一绝！",
+      "signatureDishes": "烤脑花、烤茄子",
+      "avgCost": 50,
+      "bestTime": "全天",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:05:01.844Z",
+      "approved": true
+    },
+    {
+      "id": 7,
+      "restaurantId": 2,
+      "reviewerName": "匿名用户",
+      "rating": 5,
+      "comment": "串串很新鲜，冬天吃特别爽",
+      "recommendReason": "朋友推荐的，果然没失望",
+      "signatureDishes": "鲜肉串、烤茄子",
+      "avgCost": 40,
+      "bestTime": "下午3点后",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:05:01.846Z",
+      "approved": true
+    },
+    {
+      "id": 8,
+      "restaurantId": 6,
+      "reviewerName": "重庆土著",
+      "rating": 5,
+      "comment": "重庆必吃榜单推荐",
+      "recommendReason": "排队久但值得",
+      "signatureDishes": "豌杂面、酸辣粉",
+      "avgCost": 18,
+      "bestTime": "早上7点",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:05:01.848Z",
+      "approved": true
+    },
+    {
+      "id": 9,
+      "restaurantId": 1,
+      "reviewerName": "小李",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "重庆最正宗的老火锅！",
+      "signatureDishes": "毛肚、鸭肠",
+      "avgCost": 90,
+      "bestTime": "晚上6点后",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.534Z",
+      "approved": true
+    },
+    {
+      "id": 10,
+      "restaurantId": 1,
+      "reviewerName": "阿杰",
+      "rating": 4,
+      "comment": "",
+      "recommendReason": "开了很久，味道稳定",
+      "signatureDishes": "脑花、黄喉",
+      "avgCost": 80,
+      "bestTime": "周末晚上",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.537Z",
+      "approved": true
+    },
+    {
+      "id": 11,
+      "restaurantId": 2,
+      "reviewerName": "轰轰",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "烤串很新鲜，推荐！",
+      "signatureDishes": "鲜肉串、烤茄子",
+      "avgCost": 60,
+      "bestTime": "晚上8点后",
+      "isOpen": true,
+      "images": [
+        "/uploads/sample2.svg"
+      ],
+      "createdAt": "2026-05-17T10:07:43.539Z",
+      "approved": true
+    },
+    {
+      "id": 12,
+      "restaurantId": 3,
+      "reviewerName": "小王",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "来重庆必吃珮姐！",
+      "signatureDishes": "毛肚、鹅肠、贡菜丸子",
+      "avgCost": 120,
+      "bestTime": "晚上5点半",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.541Z",
+      "approved": true
+    },
+    {
+      "id": 13,
+      "restaurantId": 3,
+      "reviewerName": "匿名",
+      "rating": 4,
+      "comment": "",
+      "recommendReason": "排队久但值得",
+      "signatureDishes": "毛肚、鸭血",
+      "avgCost": 100,
+      "bestTime": "全天",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.543Z",
+      "approved": true
+    },
+    {
+      "id": 14,
+      "restaurantId": 4,
+      "reviewerName": "重庆土著",
+      "rating": 4,
+      "comment": "",
+      "recommendReason": "周师兄服务很好",
+      "signatureDishes": "鲜毛肚、手工虾滑",
+      "avgCost": 95,
+      "bestTime": "晚上",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.544Z",
+      "approved": true
+    },
+    {
+      "id": 15,
+      "restaurantId": 7,
+      "reviewerName": "小刘",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "烤脑花好吃不贵！",
+      "signatureDishes": "烤脑花、烤茄子",
+      "avgCost": 50,
+      "bestTime": "晚上7点后",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.545Z",
+      "approved": true
+    },
+    {
+      "id": 16,
+      "restaurantId": 6,
+      "reviewerName": "面霸",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "重庆小面天花板！",
+      "signatureDishes": "豌杂面、牛肉面",
+      "avgCost": 18,
+      "bestTime": "早上9点前",
+      "isOpen": true,
+      "images": [
+        "/uploads/sample3.svg"
+      ],
+      "createdAt": "2026-05-17T10:07:43.547Z",
+      "approved": true
+    },
+    {
+      "id": 17,
+      "restaurantId": 7,
+      "reviewerName": "夜宵党",
+      "rating": 4,
+      "comment": "",
+      "recommendReason": "烤脑花一绝，环境一般",
+      "signatureDishes": "烤脑花、烤茄子",
+      "avgCost": 65,
+      "bestTime": "晚上9点后",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T10:07:43.549Z",
+      "approved": true
+    },
+    {
+      "id": 18,
+      "restaurantId": 8,
+      "reviewerName": "",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "微辣 干溜豌豆杂酱面",
+      "signatureDishes": "",
+      "avgCost": 15,
+      "bestTime": "晚上7.30后",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T17:34:13.759Z",
+      "approved": true
+    },
+    {
+      "id": 19,
+      "restaurantId": 8,
+      "reviewerName": "轰轰",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T17:34:49.034Z",
+      "approved": true
+    },
+    {
+      "id": 20,
+      "restaurantId": 2,
+      "reviewerName": "",
+      "rating": 5,
+      "comment": "",
+      "recommendReason": "",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T17:50:07.397Z",
+      "approved": true
+    },
+    {
+      "id": 21,
+      "restaurantId": 9,
+      "reviewerName": "",
+      "rating": 3,
+      "comment": "",
+      "recommendReason": "还行",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-17T18:24:32.592Z",
+      "approved": true
+    },
+    {
+      "id": 22,
+      "restaurantId": 10,
+      "reviewerName": "",
+      "rating": 2,
+      "comment": "",
+      "recommendReason": "一般",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-18T04:25:36.935Z",
+      "approved": true
+    },
+    {
+      "id": 29,
+      "restaurantId": 17,
+      "reviewerName": "",
+      "rating": 3,
+      "comment": "",
+      "recommendReason": "的",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-18T05:41:57.545Z",
+      "approved": true
+    },
+    {
+      "id": 30,
+      "restaurantId": 18,
+      "reviewerName": "",
+      "rating": 3,
+      "comment": "",
+      "recommendReason": "有人说这边鸡杂炒饭很好吃",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-18T05:42:42.822Z",
+      "approved": true
+    },
+    {
+      "id": 31,
+      "restaurantId": 19,
+      "reviewerName": "",
+      "rating": 3,
+      "comment": "",
+      "recommendReason": "的",
+      "signatureDishes": "",
+      "avgCost": 0,
+      "bestTime": "",
+      "isOpen": true,
+      "images": [],
+      "createdAt": "2026-05-18T19:41:01.949Z",
+      "approved": false,
+      "deviceId": "806b4114-4573-4976-98f7-d5a315ba3260"
+    }
+  ],
+  "blocked_devices": [
+    "test-device-001"
+  ],
+  "danmaku_messages": [],
+  "danmaku_settings": {
+    "enabled": true,
+    "speed": 5000,
+    "showReview": true,
+    "showCustom": true
+  },
+  "announcements": [
+    {
+      "id": 1,
+      "text": "🎉 欢迎来到轰轰地吃！",
+      "enabled": true,
+      "createdAt": "2026-05-18T17:50:39.413Z"
+    },
+    {
+      "id": 2,
+      "text": "🏍️ 生活打不败一个大口吃饭的人",
+      "enabled": true,
+      "createdAt": "2026-05-18T17:50:39.413Z"
+    },
+    {
+      "id": 3,
+      "text": "hello",
+      "enabled": true,
+      "createdAt": "2026-05-18T17:54:33.384Z"
+    }
+  ]
+}
